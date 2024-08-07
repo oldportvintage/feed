@@ -1,0 +1,55 @@
+<yml_catalog date="2020-08-04 02:00">
+  <shop>
+    <name>Магазин</name>
+    <company>Магазин</company>
+    <url>https://site.ru/</url>
+    <brands>
+      <brand url="http://site.ru/brand/1">Lego</brand>
+      <brand url="http://site.ru/brand/2">Лукойл</brand>
+      <brand url="http://site.ru/brand/3">BMW</brand>
+    </brands>
+    <categories>
+      <category url="http://site.ru/cat/1" id="1">Спорт и отдых</category>
+      <category url="http://site.ru/cat/2" id="2" parentId="1">Тренажеры и фитнес</category>
+      <category url="http://site.ru/cat/3" id="3" parentId="2">Тренажеры</category>
+      <category url="http://site.ru/cat/4" id="4" parentId="3">Эллиптические тренажеры</category>
+    </categories>
+    <offers>
+      <offer type="vendor.model" available="true" id="1" group_id="1">
+        <url>https://site.ru/product/1</url>
+        <price>665890.00</price>
+        <price type="opt">655890.00</price>
+        <price type="opt2">645890.00</price>
+        <oldprice>1399.00</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://site.ru/images/1.png</picture>
+        <typePrefix>Эллиптический тренажер</typePrefix>
+        <vendor>Matrix</vendor>
+        <model>A3X 2012</model>
+        <description>Описание</description>
+        <sales_notes>Сборка - бесплатно.</sales_notes>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <vendorCode>артикул-товара</vendorCode>
+        <snippet>подпись-к-товару</snippet>
+        <label>ярлык-на-товар-акция-на-товар</label>
+      
+        <param name="popularity">3</param>
+        <param name="Вес в упаковке" unit="кг">221</param>
+        <param name="Длина" unit="м">1.8</param>
+        <param name="Ширина" unit="м">0.7</param>
+        <param name="Высота" unit="м">1.7</param>
+        <pickup>false</pickup>
+        <store>false</store>
+        <region id="msk">
+            <available>true</available>
+                  <price>9999</price>
+        </region>
+        <region id="spb">
+            <available>false</available>
+            <price>11200</price>
+        </region>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
